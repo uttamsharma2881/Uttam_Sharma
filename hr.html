@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logoAll/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/hr.css" />
+
+    <title>Human Resource</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar" id="sidebar">
+        <div class="side-logo">
+          <img
+            src="assets/images/logoAll/logo.png"
+            width="70px"
+            height="70px"
+            alt="logo"
+          />
+          <a href="" class="side-title">TechCore Solutions</a>
+        </div>
+        <div class="user-profile-md">
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+        <div class="side">
+          <ul>
+            <div class="container-side current">
+              <li class="side-item">
+                <a href="index.html" class="side-link">Dashboard</a>
+              </li>
+              <i class="bi bi-house icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 href="" class="side-item dropbtn" role="button">
+                Staff Management <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="staff-tour.html" class="side-link"
+                    >Staff Task And Tour</a
+                  >
+                  <i class="bi bi-people-fill icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="hr.html" class="side-link"
+                    >Human Resource and Help</a
+                  >
+                  <i class="bi bi-info-circle icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="promo-resign.html" class="side-link"
+                    >Promotion and Resignation</a
+                  >
+                </li>
+                <li class="side-item">
+                  <a href="leaveAppli.html" class="side-link"
+                    >Leave Application</a
+                  >
+                  <icon class="bi bi-calendar-x"></icon>
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item dropbtn" role="button">
+                Company Assets
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="publication.html" class="side-link">Publication</a
+                  ><i class="bi bi-body-text icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="invenpro.html" class="side-link"
+                    >Inventory and Property</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="office-calendar.html" class="side-link">Calendar</a>
+              </li>
+              <i class="bi bi-calendar-event icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item-bs dropbtn" role="button">
+                Settings
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="changepw.html" class="side-link" target="_blank"
+                    >Change Password</a
+                  >
+                  <icon class="bi bi-shield-lock"></icon>
+                </li>
+
+                <li class="side-item">
+                  <a href="rule-regu.html" class="side-link"
+                    >Rules And Regulation</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="login.html" class="side-link">Logout</a>
+              </li>
+              <i class="bi bi-box-arrow-left icon"></i>
+            </div>
+          </ul>
+        </div>
+      </aside>
+
+      <header class="header">
+        <h2 class="">Human Resource</h2>
+        <div class="user-profile">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+
+        <div class="btn-md container-row">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <button class="toggle-btn" id="toggleSidebar">
+            <i class="bi bi-list toggleIcon"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="notification container-col hide">
+        <div class="container-row spaceBet">
+          <h3>Notification</h3>
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-x-lg icon"></i>
+          </button>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">Password Changed Successfully</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <main class="main-content" id="main-content">
+        <div class="container-main hr-content">
+          <!-- About Us Section -->
+          <section class="about-us">
+            <h3>About Us</h3>
+            <p>
+              Welcome to TechCore Solutions! We are committed to fostering a positive work environment
+              where all employees feel valued and empowered. Our HR department ensures smooth functioning,
+              addressing employee needs, and promoting professional growth.
+            </p>
+          </section>
+      
+          <!-- Rules and Regulations Section -->
+          <section class="rules-regulations">
+            <h3>Rules and Regulations</h3>
+            <ul>
+              <li>Respectful and professional communication is expected at all times.</li>
+              <li>Maintain punctuality and commitment to assigned tasks.</li>
+              <li>Confidential information must be handled with discretion.</li>
+              <li>All employees should adhere to company policies and safety guidelines.</li>
+              <li>Absences must be reported promptly through the proper channels.</li>
+            </ul>
+          </section>
+      
+          <!-- Resources and Downloads Section -->
+          <section class="downloads">
+            <h3>Resources and Downloads</h3>
+            <p>For additional guidance and policies, please download the following resources:</p>
+            <ul>
+              <li>
+                <a href="assets/docs/Employee_Handbook.pdf" download="Employee_Handbook.pdf" class="download-link">
+                  Employee Handbook
+                </a>
+              </li>
+              <li>
+                <a href="assets/docs/Company_Policies.pdf" download="Company_Policies.pdf" class="download-link">
+                  Company Policies
+                </a>
+              </li>
+              <li>
+                <a href="assets/docs/HR_Guide.pdf" download="HR_Guide.pdf" class="download-link">
+                  HR Guide
+                </a>
+              </li>
+            </ul>
+          </section>
+      
+          <!-- Features Cards Section -->
+          <section class="features">
+            <h3>HR Features</h3>
+            <div class="card-container">
+              <div class="card">
+                <h4>Get Salary Slips</h4>
+                <p>Access and download your salary slips easily through the employee portal.</p>
+                <a href="salary_slips.html" class="btn">View Salary Slips</a>
+              </div>
+              <div class="card">
+                <h4>Office Property Booking</h4>
+                <p>Reserve office property and equipment for meetings and events effortlessly.</p>
+                <a href="property_booking.html" class="btn">Book Now</a>
+              </div>
+              <div class="card">
+                <h4>Shift Management</h4>
+                <p>Manage your shifts and view upcoming schedules directly from your account.</p>
+                <a href="shift_management.html" class="btn">Manage Shifts</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      
+    </div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="assets/js/func.js"></script>
+
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/index.js"></script>
+</html>

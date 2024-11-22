@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logoAll/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
+
+    <title>Profile | Thukten Norbu</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar" id="sidebar">
+        <div class="side-logo">
+          <img
+            src="assets/images/logoAll/logo.png"
+            width="70px"
+            height="70px"
+            alt="logo"
+          />
+          <a href="" class="side-title">TechCore Solutions</a>
+        </div>
+        <div class="user-profile-md">
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+        <div class="side">
+          <ul>
+            <div class="container-side current">
+              <li class="side-item">
+                <a href="index.html" class="side-link">Dashboard</a>
+              </li>
+              <i class="bi bi-house icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 href="" class="side-item dropbtn" role="button">
+                Staff Management <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="staff-tour.html" class="side-link"
+                    >Staff Task And Tour</a
+                  >
+                  <i class="bi bi-people-fill icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="hr.html" class="side-link"
+                    >Human Resource and Help</a
+                  >
+                  <i class="bi bi-info-circle icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="promo-resign.html" class="side-link"
+                    >Promotion and Resignation</a
+                  >
+                </li>
+                <li class="side-item">
+                  <a href="leaveAppli.html" class="side-link"
+                    >Leave Application</a
+                  >
+                  <icon class="bi bi-calendar-x"></icon>
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item dropbtn" role="button">
+                Company Assets
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="publication.html" class="side-link">Publication</a
+                  ><i class="bi bi-body-text icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="invenpro.html" class="side-link"
+                    >Inventory and Property</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="office-calendar.html" class="side-link">Calendar</a>
+              </li>
+              <i class="bi bi-calendar-event icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item-bs dropbtn" role="button">
+                Settings
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="changepw.html" class="side-link" target="_blank"
+                    >Change Password</a
+                  >
+                  <icon class="bi bi-shield-lock"></icon>
+                </li>
+
+                <li class="side-item">
+                  <a href="rule-regu.html" class="side-link"
+                    >Rules And Regulation</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="login.html" class="side-link">Logout</a>
+              </li>
+              <i class="bi bi-box-arrow-left icon"></i>
+            </div>
+          </ul>
+        </div>
+      </aside>
+
+      <header class="header">
+        <h2 class="dash-title">Profile</h2>
+        <div class="user-profile">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+
+        <div class="btn-md container-row">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <button class="toggle-btn" id="toggleSidebar">
+            <i class="bi bi-list toggleIcon"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="notification container-col hide">
+        <div class="container-row spaceBet">
+          <h3>Notification</h3>
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-x-lg icon"></i>
+          </button>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">Password Changed Successfully</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <main class="main-content" id="main-content">
+        <div class="container-main">
+          <div class="row">
+            <!-- Profile Sidebar -->
+            <div class="col container-col jus-center">
+              <img
+                src="assets/images/profile.jpeg"
+                alt="Profile Picture"
+                class="img-fluid rounded-circle mb-3"
+                style="max-width: 150px"
+              />
+              <h4 class="mb-3">Thukten Norbu</h4>
+            </div>
+
+            <!-- Main Info Section -->
+            <div class="personal-details col-6 card container-col">
+              <p><strong>Employee ID:</strong> GCIT12240095</p>
+              <p><strong>Joined On:</strong> 2024</p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:12240095.gcit@rub.edu.bt"
+                  >12240095.gcit@rub.edu.bt</a
+                >
+              </p>
+              <p>
+                <strong>Phone No:</strong> <a href="phone:17744848">17744848</a>
+              </p>
+            </div>
+            <div class="roles col-6 card">
+              <p>Senior Developer</p>
+              <p><strong>Department:</strong>Full Stack</p>
+              <p><strong>Access Level:</strong> Admin</p>
+              <p><strong>Active Since:</strong> March 15, 2024</p>
+              <p><strong>Status:</strong> Active</p>
+            </div>
+            <!-- Leave/Tour Section -->
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Leave/Tour</h5>
+                  <ul class="list-unstyled">
+                    <li>• Leave Application</li>
+                    <li>• Travel Authorization</li>
+                    <li>• Travel Claim</li>
+                    <li>• Leave Encashment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Advances Section -->
+            <div class="col-6">
+              <div class="card h-max-content">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Advances</h5>
+                  <ul class="list-unstyled">
+                    <li>• Salary Advance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leaves Detail Table -->
+            <div class="col">
+              <div class="card w-inherit">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Leaves Detail</h5>
+                  <table class="table w-95">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="bg-primary text-white">
+                          Leave Type
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Casual Leave</td>
+                      </tr>
+                      <tr>
+                        <td>Earned Leave</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <hr class="col">
+            <!-- To-Do List -->
+            <div class="col">
+              <section id="staff-tasks" class=" container-col">
+            
+                <div class=" top-staff-info container-row spaceBet ">
+                  <h3 class="">Staff Tasks</h3>
+                  <div class="form-group container-row">
+                    <input type="text" placeholder="search" class="input" />
+                    <button class="icon-btn tertiary">
+                      <i class="icon bi bi-search"></i>
+                    </button>
+                  </div>
+                </div>
+      
+                <div class="row">
+                  <!-- Task Card 1 -->
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-content">
+                        <h2 class="card-title">Complete Monthly Report</h2>
+                        <p class="card-description">Due: End of Month</p>
+                        <button class="card-button">Mark as Complete</button>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Task Card 2 -->
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-content">
+                        <h2 class="card-title">Client Follow-Up</h2>
+                        <p class="card-description">Due: 15th of Every Month</p>
+                        <button class="card-button">Mark as Complete</button>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Task Card 3 -->
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-content">
+                        <h2 class="card-title">Quarterly Review Prep</h2>
+                        <p class="card-description">Due: Next Quarter</p>
+                        <button class="card-button">Mark as Complete</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-content">
+                        <h2 class="card-title">Prepare Project Roadmap for Q4</h2>
+                        <p class="card-description">Due: October 25</p>
+                        <button class="card-button">Mark as Complete</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-content">
+                        <h2 class="card-title">Server Maintenance and Backup</h2>
+                        <p class="card-description">Due: October 22</p>
+                        <button class="card-button">Mark as Complete</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <hr class="col" />
+
+            <div class="col ac-sett secondary">
+              <h4>Account Settings</h4>
+
+              <div class="row settings-opt">
+                <button
+                  class="btn col-6 tertiary modal-trigger"
+                  onclick="openModal('changepwModal')"
+                >
+                  Change Password
+                </button>
+              </div>
+
+              <div
+                class="login-form modal container-col center"
+                id="changepwModal"
+              >
+                <form class="secondary jus-center form">
+                  <div class="container-row end">
+                    <button
+                      role="button"
+                      onclick="openModal('changepwModal', event)"
+                      class="icon-btn transparent modal-trigger"
+                    >
+                      <i class="bi bi-x icon-transparent"></i>
+                    </button>
+                  </div>
+                  <h2>Change Password</h2>
+                  <!-- New Password -->
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      class="input"
+                      placeholder="New Password"
+                      required
+                    />
+                  </div>
+
+                  <!-- Confirm New Password -->
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      class="input"
+                      placeholder="Confirm New Password"
+                      required
+                    />
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="form-group text-center">
+                    <button type="submit" class="btn primary">
+                      Change Password
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="assets/js/func.js"></script>
+</html>

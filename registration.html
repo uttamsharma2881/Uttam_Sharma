@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/logoAll/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://globetourismo.com/wp-content/uploads/2024/08/ezgif-6-0824a5ac7f.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.2); 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #10316b;
+}
+
+.login-form input {
+  background-color: rgba(255, 255, 255, 0.3); 
+  border: none;
+  border-radius: 5px;
+  color: #10316b;
+}
+
+.login-form input::placeholder {
+  color: #10316b;
+}
+
+.login-form label {
+  color: #10316b
+}
+
+.login-form a {
+  color: #10316b;
+}
+
+.login-form a:hover {
+  color: #10316b;
+}
+
+.form-check-label {
+  color: #10316b;
+}
+
+/* Media Query for small screens (mobile devices) */
+@media (max-width: 768px) {
+  .login-form {
+      padding: 20px;
+      max-width: 100%;
+  }
+}
+
+/* Media Query for extra small screens */
+@media (max-width: 576px) {
+  .login-form {
+      padding: 15px;
+  }
+}
+  </style>
+  </head>
+  <body>
+    <div class="container-fluid login-container">
+      <div class="login-form">
+        <h2>Register</h2>
+        <form>
+          <!-- Name -->
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Password"
+              id="password"
+              required
+            />
+          </div>
+
+          <!-- Confirm Password -->
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Confirm Password"
+              id="cPassword"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox" id="showPassword" />
+            <label for="showPassword" class="form-check-label"
+              >Show Password</label
+            >
+          </div>
+
+          <!-- Register Button -->
+          <div class="form-group text-center">
+            <button type="submit" class="btn btn-success btn-block">
+              Register
+            </button>
+          </div>
+
+          <!-- Login Link -->
+          <div class="form-group text-center">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document
+        .getElementById("showPassword")
+        .addEventListener("change", function () {
+          const passwordField = document.getElementById("password");
+          const cPassField = document.getElementById("cPassword");
+          if (this.checked) {
+            passwordField.type = "text";
+            cPassField.type = "text";
+          } else {
+            passwordField.type = "password";
+            cPassField.type = "password";
+          }
+        });
+    </script>
+  </body>
+</html>

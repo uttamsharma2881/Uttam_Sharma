@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logoAll/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar" id="sidebar">
+        <div class="side-logo">
+          <img
+            src="assets/images/logoAll/logo.png"
+            width="70px"
+            height="70px"
+            alt="logo"
+          />
+          <a href="" class="side-title">TechCore Solutions</a>
+        </div>
+        <div class="user-profile-md">
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+        <div class="side">
+          <ul>
+            <div class="container-side current">
+              <li class="side-item">
+                <a href="index.html" class="side-link">Dashboard</a>
+              </li>
+              <i class="bi bi-house icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 href="" class="side-item dropbtn" role="button">
+                Staff Management <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="staff-tour.html" class="side-link"
+                    >Staff Task And Tour</a
+                  >
+                  <i class="bi bi-people-fill icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="hr.html" class="side-link"
+                    >Human Resource and Help</a
+                  >
+                  <i class="bi bi-info-circle icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="promo-resign.html" class="side-link"
+                    >Promotion and Resignation</a
+                  >
+                </li>
+                <li class="side-item">
+                  <a href="leaveAppli.html" class="side-link"
+                    >Leave Application</a
+                  >
+                  <icon class="bi bi-calendar-x"></icon>
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item dropbtn" role="button">
+                Company Assets
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="publication.html" class="side-link">Publication</a
+                  ><i class="bi bi-body-text icon"></i>
+                </li>
+                <li class="side-item">
+                  <a href="invenpro.html" class="side-link"
+                    >Inventory and Property</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="office-calendar.html" class="side-link">Calendar</a>
+              </li>
+              <i class="bi bi-calendar-event icon"></i>
+            </div>
+
+            <div class="container-side dropdown">
+              <h4 class="side-item-bs dropbtn" role="button">
+                Settings
+                <icon class="bi bi-caret-down-fill"></icon>
+              </h4>
+              <ul class="dropdown-content">
+                <li class="side-item">
+                  <a href="changepw.html" class="side-link" target="_blank"
+                    >Change Password</a
+                  >
+                  <icon class="bi bi-shield-lock"></icon>
+                </li>
+
+                <li class="side-item">
+                  <a href="rule-regu.html" class="side-link"
+                    >Rules And Regulation</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="container-side">
+              <li class="side-item">
+                <a href="login.html" class="side-link">Logout</a>
+              </li>
+              <i class="bi bi-box-arrow-left icon"></i>
+            </div>
+          </ul>
+        </div>
+      </aside>
+
+      <header class="header">
+        <h2 class="">Dashboard</h2>
+        <div class="user-profile">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <a href="profile.html" class="side-link side-item">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" />
+            <p>Thukten Norbu</p>
+          </a>
+        </div>
+
+        <div class="btn-md container-row">
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-bell icon"></i>
+          </button>
+          <button class="toggle-btn" id="toggleSidebar">
+            <i class="bi bi-list toggleIcon"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="notification container-col hide">
+        <div class="container-row spaceBet">
+          <h3>Notification</h3>
+          <button class="icon-btn transparent" id="notification">
+            <i class="bi bi-x-lg icon"></i>
+          </button>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">Password Changed Successfully</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+        <div class="notifi w-95">
+          <a href="" class="reTar">
+            <div class="card-content">
+              <p class="card-description">lorem</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <main class="main-content" id="main-content">
+        <div class="container-main">
+          <div class="row overview">
+            <div class="leaveCounter leaveT card hover col-3">
+              <div class="card-content container-row spaceBet">
+                <p class="card-title-sm">Leave Taken</p>
+                <span>10</span>
+              </div>
+            </div>
+            <div class="leaveCounter dueToday hover card col-3">
+              <div class="card-content container-row spaceBet">
+                <p class="card-title-sm">Task Due Today</p>
+                <span>3</span>
+              </div>
+            </div>
+            <div class="leaveCounter attendT hover card col-3">
+              <div class="card-content container-row spaceBet">
+                <p class="card-title-sm">Total Attendance</p>
+                <span>83.23%</span>
+              </div>
+            </div>
+            <div class="leaveCounter event-T hover card col-3">
+              <div class="card-content container-row spaceBet">
+                <p class="card-title-sm">Events This Month</p>
+                <span id="eventsThisMonth">5</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Actions Section -->
+          <div class="quick-actions row">
+            <h4 class="section-title">Quick Actions</h4>
+            <div class="card action-card col-4 hover">
+              <div class="card-content">
+                <h5>Submit Leave Request</h5>
+                <a href="leaveAppli.html" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+            <div class="card action-card col-4 hover">
+              <div class="card-content">
+                <h5>Update Profile</h5>
+                <a href="profile.html" class="btn btn-primary">Edit</a>
+              </div>
+            </div>
+            <div class="card action-card col-4 hover">
+              <div class="card-content">
+                <h5>View Reports</h5>
+                <a href="reports.html" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="user-activity container-col accordian">
+            <div class="container-row trigger">
+              <i class="bi bi-caret-down-fill"></i>
+              <h4>User Activity Log</h4>
+            </div>
+            <div class="activity-log acd-item">
+              <div class="activity-item">
+                <p><strong>Thukten Norbu</strong> logged in at 9:00 AM</p>
+                <span class="timestamp">10 minutes ago</span>
+              </div>
+              <div class="activity-item">
+                <p>
+                  <strong>Thukten Norbu</strong> completed a task:
+                  <em>Report Generation</em>
+                </p>
+                <span class="timestamp">30 minutes ago</span>
+              </div>
+              <div class="activity-item">
+                <p><strong>Admin</strong> updated company policies</p>
+                <span class="timestamp">1 hour ago</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Status Section -->
+          <div class="project-status row">
+            <h4 class="section-title">Project Status</h4>
+            <div class="project-card col-4 hover">
+              <div class="card-content">
+                <h5>Project Alpha</h5>
+                <p>Status: <span class="status-on-track">On Track</span></p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card col-4 hover">
+              <div class="card-content">
+                <h5>Project Beta</h5>
+                <p>Status: <span class="status-delayed">Delayed</span></p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 40%">40%</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card col-4 hover">
+              <div class="card-content">
+                <h5>Project Gamma</h5>
+                <p>Status: <span class="status-on-track">On Track</span></p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 80%">80%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Performance Metrics Section -->
+          <div class="performance-metrics row">
+            <h4 class="section-title">Performance Metrics</h4>
+            <div class="metric-card col-4 hover">
+              <div class="card-content">
+                <p>Total Revenue: <strong>$120,000</strong></p>
+              </div>
+            </div>
+            <div class="metric-card col-4 hover">
+              <div class="card-content">
+                <p>New Clients: <strong>25</strong></p>
+              </div>
+            </div>
+            <div class="metric-card col-4 hover">
+              <div class="card-content">
+                <p>Completed Projects: <strong>15</strong></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <!-- ---- EVENTS IN THE COMPANY -->
+          <div class="recent-events container-col accordian">
+            <div class="container-row trigger">
+              <i class="bi bi-caret-down-fill"></i>
+              <h4>Recent Events</h4>
+            </div>
+
+            <div class="event row acd-item">
+              <div class="card-img-div col-3">
+                <a href="test.html" class="reTar">
+                  <img
+                    src="https://craftypixels.com/placeholder-image/100x100/29bd00/fff&text=Woohoo"
+                    alt=""
+                    class="card-img"
+                  />
+                </a>
+              </div>
+
+              <div class="acd-content col-9">
+                <a href="test.html" class="reTar">
+                  <h3 class="card-title">Event 1</h3>
+                </a>
+                <p class="card-description truncate">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, quam nostrum, dolor quos aperiam sint nam enim,
+                  dolorem voluptatem debitis odio ducimus ratione sequi dolore
+                  nesciunt incidunt? Veniam, commodi quae.
+                </p>
+              </div>
+            </div>
+            <div class="event row acd-item">
+              <div class="card-img-div col-3">
+                <a href="test.html" class="reTar">
+                  <img
+                    src="https://craftypixels.com/placeholder-image/100x100/29bd00/fff&text=Woohoo"
+                    alt=""
+                    class="card-img"
+                  />
+                </a>
+              </div>
+
+              <div class="acd-content col-9">
+                <a href="test.html" class="reTar">
+                  <h3 class="card-title">Event 2</h3>
+                </a>
+                <p class="card-description truncate">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae libero dolores odit, autem dignissimos quas odio!
+                  Tenetur velit fugiat alias deleniti architecto laboriosam
+                  officia. Sint voluptas quidem quam ipsa molestiae.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row company-thing">
+            <!-- ----UPCOMING EVENTS ----- -->
+            <div class="upComing accordian col-6 container-col">
+              <div class="container-row trigger">
+                <i class="bi bi-caret-down-fill"></i>
+                <h4>Programs this month</h4>
+              </div>
+              <div class="cMonthEve acd-item"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="assets/js/func.js"></script>
+
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/index.js"></script>
+</html>
